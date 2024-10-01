@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Techdoc",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

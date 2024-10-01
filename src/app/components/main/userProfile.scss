@@ -1,0 +1,125 @@
+.org-listing-container {
+  display: flex;
+  height: auto;
+  justify-content: center;
+
+  .org-listing-column {
+    display: flex;
+    border-radius: 4px;
+    font-size: 14px;
+
+
+    .org-listing-button {
+      height: 28px !important;
+      text-transform: capitalize;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      transition: background-color 0.3s ease-in;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(55, 53, 47);
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+  }
+}
+
+.avatar-org {
+  display: flex;
+  background: rgba(55, 53, 47, 0.09) !important;
+  color: rgba(55, 53, 47, 0.65) !important;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leave-icon {
+  visibility: hidden;
+  padding-right: 10px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(206 0 0 / 68%);
+
+  &:hover {
+    color: rgb(224 9 9);
+  }
+}
+
+.name-list {
+  padding-left: 10px;
+  transition: background-color 0.3s ease;
+
+  .org-collection-name {
+    width: calc(100% - 35px);
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &:hover .leave-icon {
+    visibility: visible;
+  }
+}
+
+.check {
+  margin-left: auto;
+  display: block;
+  padding-right: 10px;
+}
+
+.invite-user {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .members {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(145, 145, 145);
+    padding-left: 10px;
+  }
+}
+
+.profile-details {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .trash {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(145, 145, 145);
+    padding-left: 10px;
+  }
+}
+
+.collection {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .add-collection {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(145, 145, 145);
+    padding-left: 10px;
+  }
+}
+
+
+.logout {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+  padding-left: 10px;
+}

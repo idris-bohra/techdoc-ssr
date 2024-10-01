@@ -1,0 +1,16 @@
+.organization-box {
+    border-radius: 5px;
+    font-size: 12px;
+    &:hover {
+        background-color: rgba(128, 128, 128, 0.141);
+    }
+}
+
+.selectedOrg {
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.disabled-org {
+    color: rgb(153, 151, 151);
+    pointer-events: none;
+}

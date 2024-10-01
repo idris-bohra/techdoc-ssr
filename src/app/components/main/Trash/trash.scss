@@ -1,0 +1,22 @@
+.restore-action {
+    cursor: pointer;
+    text-align: center;
+    /* Hide the text when not hovered */
+    color: transparent;
+    transition: color 0.3s ease;
+  }
+  
+  tr:hover .restore-action {
+    /* Show the text when hovered */
+    color: inherit;
+  }
+  
+  .restore-action .react-icon {
+    // transition: transform 0.3s ease;
+    font-size: 16px; /* Default size */
+  }
+  
+  tr:hover .restore-action .react-icon {
+    transform: scale(1.5); /* Enlarge icon size on hover */
+  }
+  

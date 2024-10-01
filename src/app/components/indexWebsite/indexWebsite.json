@@ -1,0 +1,101 @@
+{
+    "features": [
+        {
+            "name": "Intutive <span class='font-american'>Interface</span>",
+            "description": "Drag, drop, and build requests with ease. No more wrestling with complex syntax.",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "<span class='font-american'>Powerful</span>Features",
+            "description": "Support for all popular HTTP methods, environment variables, authentication, and more!",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "<span class='font-american'>Collaboration</span><br/>Made Easy",
+            "description": "Share collections and work together seamlessly with your team. ",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "<span class='font-american'>Advanced </span>Testing",
+            "description": "Test your APIs like a pro with detailed response analysis.",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "Lightweight &  <span class='font-american'>Secure</span>",
+            "description": "Works seamlessly on any device and keeps your data safe with encryption.",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "Better <span class='font-american'>Versioning</span> System",
+            "description": "Providing versioning for microservices inside the service collection.",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        },
+        {
+            "name": "<span class='font-american'>Documentation</span>",
+            "description": "Document anything with techdoc.",
+            "more": "/",
+            "img": "/assets/img/indexPage/features/feature_img.svg"
+        }
+    ],
+    "benefits": [
+        {
+            "name": "Boost <span class='font-american'> Productivity</span>",
+            "slug": "productivity",
+            "description": "Spend less time fiddling and more time building amazing APIs"
+        },
+        {
+            "name": "Simplify <span class='font-american'> Collaboration</span>",
+            "slug": "collaboration",
+            "description": "Work together on projects effortlessly, eliminating communication gaps."
+        },
+        {
+            "name": "Improve <span class='font-american'> Efficiency</span>",
+            "slug": "efficiency",
+            "description": "Streamline your API development workflow, from testing to documentation."
+        },
+        {
+            "name": "<span class='font-american'> Secure</span> APIs ",
+            "slug": "apis",
+            "description": "Know your APIs are secure with industry-standard encryption."
+        }
+    ],
+    "customers": [
+        
+        {
+            "name": "giddh",
+            "img": "../../assets/web/logos/giddh.svg",
+            "urls": "https://giddh.com/"
+        },
+        {
+            "name": "socket",
+            "img": "../../assets/web/logos/socket.svg",
+            "urls": "https://techdoc.viasocket.com/"
+        },
+        {
+            "name": "freejun",
+            "img": "../../assets/web/logos/freejun.svg",
+            "urls": "https://techdoc.walkover.in/p?collectionId=FYgPTX3z0uZL"
+        },
+        {
+            "name": "msg91",
+            "img": "../../assets/web/logos/msg91.svg",
+            "urls": "https://docs.msg91.com/"
+        },
+        {
+            "name": "dbdash",
+            "img": "../../assets/web/logos/dbdash.svg",
+            "urls": "https://techdoc-table.viasocket.com/"
+        },
+        {
+            "name": "walkover",
+            "img": "../../assets/web/logos/walkover.svg",
+            "urls": "https://walkover.in/"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+.version-modal-container {
+    height: fit-content;
+    width: 100%;
+    .version-modal-header  {
+        padding: 12px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .version-modal-body {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 12px;
+    }
+    .version-modal-footer {
+        padding: 12px;
+    }
+}
+
+.version-input {
+    max-width: 100px;
+}
+
+.edit-pencil {
+    width: 14px;
+}
+
+.version-title {
+    font-size: 14px;
+    max-width: 100px;
+    min-width: 10px;
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis for overflow content */
+    white-space: nowrap;
+}
+
+.default-btn {
+    width: auto;
+    height: fit-content;
+}

@@ -1,0 +1,55 @@
+.manual-runs-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .run-details {
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+    }
+  
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+  
+      th, td {
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f4f4f4;
+      }
+    }
+  
+    .test-results {
+      h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+  
+      .iteration-details {
+        margin-top: 10px;
+  
+        h3 {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+  
+        div {
+          margin-bottom: 5px;
+        }
+        .iteration-details-api {
+          span {
+            width: unset !important;
+          }
+        }
+      }
+    }
+  }

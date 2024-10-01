@@ -1,0 +1,47 @@
+.choice-logo {
+  font-size: 24px; 
+  margin-bottom: 8px;
+}
+.choices {
+  gap: 10px;
+}
+.export-collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 138px; 
+  height: 74px; 
+}
+
+.export-collection-item.selected {
+  border: 2px solid #f2994a; 
+  background-color: #f2994a0f;
+}
+
+.export-collection-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.choice-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice-container {
+  gap: 20px; /* Add spacing between the choice boxes */
+}
+.export-modal {
+  .modal-sm {
+    min-width: unset !important;
+    max-width: 300px;
+  }
+}

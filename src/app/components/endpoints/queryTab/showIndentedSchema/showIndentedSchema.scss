@@ -1,0 +1,50 @@
+.accordion-container {
+    overflow: scroll;
+    height: 97%;
+}
+
+.schema-data-parent-container {
+    position: relative;
+    &::before {
+        content: '';
+        display: block;
+        border-left: 1px solid rgb(227 227 227);
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+}
+
+.parent-accordion-container {
+    border: 1px solid rgba(128, 128, 128, 0.231);
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.schema-data-container {
+    border-radius: 4px;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+
+    &:hover {
+        border: 1px solid rgba(128, 128, 128, 0.231);
+    }
+}
+
+.schema-input-type {
+    color: rgb(135, 135, 135);
+    font-size: 12px;
+}
+
+.field-name {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.field-description {
+    color: rgb(135, 135, 135);
+    font-size: 12px;
+}

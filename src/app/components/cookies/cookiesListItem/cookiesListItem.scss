@@ -1,0 +1,40 @@
+.cookie-item {
+  background: #fbf9f5;
+  border: 0.5px solid #fad9ba;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px 15px;
+  margin: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  textarea {
+    margin: 10px 0 15px;
+    font-size: 13px;
+  }
+  .delete-abs {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+  }
+}
+.btn.default {
+  background: #d4d4d4;
+  height: 35px;
+  padding: 8px 20px;
+  line-height: initial;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.back-link {
+  cursor: pointer;
+  font-size: 14px;
+  color: #e98a36;
+}
+
+.domain-title {
+  color: #333333;
+  font-weight: 600;
+  font-size: 15px;
+}

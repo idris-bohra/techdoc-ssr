@@ -1,0 +1,58 @@
+//Note: Unique IDs are used in CTAs for tracking purposes with GTM. Do not use the same IDs elsewhere.
+
+.entity-input {
+  width: 100%;
+  margin: 0px 0px 5px 0;
+  border: 0.5px solid #e6dbd4;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 12px;
+  padding-left: 18px;
+  height: 30px;
+}
+
+.entity-name-error {
+  color: red;
+}
+
+.quick-add-endpoint {
+  padding: 0px 15px 10px 0px;
+}
+
+.quick-add-endpoint p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.body {
+  text-align: center;
+  .col {
+    display: inline-table;
+  }
+  .entity-name {
+    margin: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 80px;
+    width: 180px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 1px solid #dedede;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 30px 0px #e8e8e8;
+    transition: all 200ms ease-in;
+  }
+  .entity-name:hover {
+    border-color: #f2994a;
+  }
+}
+
+.add-entity-modal-container {
+  width: 600px !important;
+}

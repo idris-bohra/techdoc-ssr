@@ -1,0 +1,253 @@
+//Note: Unique IDs are used in CTAs for tracking purposes with GTM. Do not use the same IDs elsewhere.
+
+$border-color: rgba(227, 228, 230, 0.7);
+$alert-color: #CC0000;
+
+.add-collection-btn-wrap {
+  padding: 0;
+  margin-bottom: 10px;
+
+  .add-collection-btn {
+    background: transparent;
+    width: 100%;
+    padding: 10px 35px 10px;
+    color: #e98a36;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #e98a36 !important;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 15px;
+
+    &:active,
+    &:focus {
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+#parent-accordion {
+  .card {
+    border-radius: 0;
+    border: none;
+
+    .collapse {
+      .card-body {
+        padding: 0 0 0 15px !important;
+      }
+    }
+
+    .collapsing {
+      .card-body {
+        padding: 0 0 0 15px !important;
+      }
+    }
+
+    .card-header {
+      border-bottom: 1px solid $border-color;
+      margin-bottom: 0px !important;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0px;
+      height: 60px;
+      border-radius: 0px;
+      background-color: white;
+
+      .btn {
+        text-align: left;
+      }
+
+      i.fas.fa-folder-open {
+        opacity: 0.4;
+        padding-left: 10px;
+        margin: 5px;
+      }
+
+      i.fa.fa-file-text {
+        color: rgb(158, 154, 16);
+        opacity: 0.8;
+        padding-left: 10px;
+        margin: 5px;
+      }
+
+      button.btn {
+        float: left;
+        width: 80%;
+      }
+
+      .btn-group {
+        visibility: hidden;
+        display: flex;
+        margin: 0px;
+        height: 100%;
+        border-radius: 0px;
+
+        button.btn.btn-secondary {
+          border-radius: 0px;
+          background: rgb(237, 237, 237);
+          border: 0px;
+          border-left: 1px solid rgba(0, 0, 0, 0.125);
+          color: rgba(0, 0, 0, 0.4);
+        }
+
+        .dropdown-menu {
+          border-radius: 0px;
+          transform: translate3d(-119px, 59px, 0px) !important;
+          margin: 0px;
+        }
+      }
+
+      .show {
+        visibility: visible;
+      }
+    }
+
+    .card-header:hover {
+      background: rgb(237, 237, 237);
+
+      .btn-group {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+#back-to-all-collections-button {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 0px;
+
+  i {
+    width: 40px;
+  }
+
+  label {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.collection-description {
+  padding: 10px;
+}
+
+.img-icon-div {
+  img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid tomato;
+
+    border-radius: 100%;
+  }
+}
+
+.show-endpoint-count {
+  color: #e98a36;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+div.absolute {
+  position: absolute;
+  bottom: 10px;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 10px;
+}
+
+.user-notification {
+  padding: 0px !important;
+  width: 100%;
+
+  .user-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .notification {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+
+  .notification .badge {
+    position: absolute;
+    top: -7px;
+    right: 7px;
+    padding: 3px;
+    border-radius: 29px;
+    font-size: 9px;
+    background-color: #e98a36;
+    color: #fff;
+    height: 14px;
+    width: 18px;
+    text-align: center;
+  }
+
+  .notification-icon {
+    padding-left: 10px;
+  }
+
+  .dropdown-toggle {
+    background: #ffffff;
+    border: none;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .user-name {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .user-avatar img {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+
+.userInfowrapper {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid #d3ccc5;
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.marketplace-icon {
+  border: 0.5px solid #f2994a;
+  border-radius: 15px;
+  color: white;
+  height: 15px;
+  width: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 20;
+  background: #f2994a;
+  font-size: 7px;
+}
+

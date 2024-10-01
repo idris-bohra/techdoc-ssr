@@ -1,0 +1,97 @@
+//Note: Unique IDs are used in CTAs for tracking purposes with GTM. Do not use the same IDs elsewhere.
+@import '../main/variables.scss';
+
+$border-color: rgba(227, 228, 230, 0.7);
+.public-generic-table-container {
+  background-color: white;
+
+  .public-generic-table-title-container {
+    padding: 40px 0px 3px 20px;
+    opacity: 1;
+    color: tomato;
+  }
+
+  button#edit-button {
+    float: right;
+    color: steelblue;
+    padding-top: 0px;
+    &:hover {
+      color: steelblue;
+    }
+  }
+}
+.data-type {
+  // margin-left: 20px;
+  // background: lightgrey;
+  // padding: 1px;
+  font-size: 10px;
+}
+
+.primitive-datatype-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.object-row-wrapper {
+  margin: 10px;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+}
+
+.value-input-field {
+  margin: 5px 7px;
+  padding: 0px 5px;
+}
+
+.array-wrapper {
+  width: 100%;
+  // border: 1px solid rgba(192, 193, 194, 0.7);
+
+  // margin: 5px;
+  // border-radius: 5px;
+}
+
+.custom-boolean {
+  width: 180px;
+  margin-right: 11px;
+}
+.custom-boolean {
+  width: 180px;
+  margin-right: 11px;
+}
+
+// .hm-public-endpoint-headers {
+//   .description-input-field {
+//     padding: 0px;
+//     margin: 0px;
+//     width: auto;
+//   }
+// }
+
+.public-endpoint-tabs {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 8px;
+  display: flex;
+  li {
+    border: 1px solid $outline-color;
+    margin-right: -1px;
+    transition: all 0.3s ease-in;
+    color: $text-color;
+    font-size: $font-medium;
+    font-weight: normal;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    &.active {
+      color: #fff;
+    }
+    &:first-child {
+      border-radius: 3px 0 0 3px;
+    }
+    &:last-child {
+      border-radius: 0 3px 3px 0;
+    }
+  }
+}

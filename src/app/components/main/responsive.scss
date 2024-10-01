@@ -1,0 +1,134 @@
+@import './variables.scss';
+
+@media (min-width: 1401px) {
+  body .split-sidebar > div:first-child {
+    // min-width: 330px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .response-right {
+    display: flex;
+    justify-content: space-between;
+    h4 {
+      height: 2rem;
+      margin-bottom: 0;
+    }
+    .response-status {
+      margin: 0.5rem 0;
+    }
+    .mid-part {
+      overflow: auto;
+    }
+    .response-container-main {
+      width: 30%;
+      background-color: #fff;
+      padding: 1rem;
+      height: calc(100vh - 42px);
+      overflow: auto;
+      border-left: 1px solid $outline-color;
+      position: absolute !important;
+      right: 0;
+      top: 42px;
+      .response-switcher {
+        right: 1rem;
+        top: 1.5rem;
+      }
+      .nav-tabs {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+    .response-headers-container {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 1699px) {
+  .colorChooser.d-flex {
+    justify-content: normal !important;
+    display: block !important;
+  }
+  .colorChooser.d-flex button {
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 1365px) {
+  .customRadio {
+    margin-right: 10px;
+  }
+  .hm-right-content {
+    .hideCodeEditor {
+      .hm-endpoint-container {
+        max-width: 45rem;
+      }
+    }
+  }
+  .select-code-wrapper > button,
+  .select-code-wrapper .dropdown button {
+    font-size: $font-small !important;
+    height: 30px;
+    padding: 0 6px;
+  }
+}
+@media (max-width: 778px) {
+  .response-switcher {
+    display: none !important;
+  }
+}
+@media (max-width: 1199px) {
+  .pub-inner {
+    width: 100%;
+  }
+  .publish-api-doc-container .dropdown .dropdown-toggle {
+    width: 50%;
+  }
+  .pub-illustrator {
+    display: none;
+  }
+  
+  .response-right {
+    .response-container-main {
+      width: 100%;
+      padding: 0.25rem 1.25rem 1.25rem 1.25rem;
+      max-width: 33rem;
+      h4 {
+        height: 3.25rem;
+        margin: 0;
+      }
+      .response-viewer {
+        margin: 0;
+        .custom-tabs {
+          position: relative;
+          top: -1.75rem;
+          max-width: 50%;
+          .nav-tabs {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .response-status {
+      margin-bottom: 0;
+    }
+    .endpoint-response-container {
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: $border-radius;
+    }
+    .testing-view-sample-response {
+      padding: 0 1rem;
+    }
+    .sample-response-item {
+      margin-bottom: 1rem;
+    }
+  }
+  .custom-tabs .nav-tabs .nav-item .nav-link {
+    white-space: nowrap;
+    padding: 0 10px !important;
+  }
+}

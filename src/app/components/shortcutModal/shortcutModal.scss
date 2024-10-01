@@ -1,0 +1,20 @@
+.modal-sm {
+    min-width: unset !important;
+    max-width: 560px !important;
+    .name-Shortcuts-contanier {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .key-Shortcuts {
+            span {
+                &:has(svg) {
+                 line-height: 15px;
+                }
+            }
+            &>span {
+                &:nth-child(2) {
+                    width: 29px;
+                }
+            }
+        }
+    }
+}

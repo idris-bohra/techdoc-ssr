@@ -1,0 +1,77 @@
+.home-button {
+    top: 26px;
+    left: 26px;
+    z-index: 1;
+}
+.back-button {
+    left: 74px;
+    top: 26px;
+    z-index: 1;
+}
+.onboarding-container {
+    width: 100vw;
+    height: 100vh;
+
+    .on-boarding {
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+
+        &.slide-out {
+            transform: translateX(-100%);
+        }
+
+        .card-container {
+            gap: 20px;
+
+            .card-main {
+                width: 16rem;
+                height: 16rem;
+                box-shadow: rgba(55, 53, 47, 0.16) 0px 0px 0px 1px, rgba(167, 167, 167, 0.25) 0px 1px 2px;
+                opacity: 0.7;
+                background-color: #80808026;
+
+                &.active-tab {
+                    box-shadow: rgb(0, 78, 134) 0px 0px 0px 2px, rgba(182, 182, 182, 0.25) 0px 8px 12px;
+
+                    .card-text {
+                        color: black !important;
+                    }
+                }
+
+                &:hover {
+                    background-color: white !important;
+
+                    .card-text {
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .input-container {
+       opacity: 0;
+
+        &.show-in {
+            opacity: 1;
+            transition: transform 0.5s ease-out, opacity 1.5s ease-out;
+        }
+
+
+        .input-group {
+            max-width: 600px;
+
+            .form-control {
+                &:focus {
+                    border-color: darkblue !important;
+                }
+            }
+        }
+    }
+
+    .btn-Continue {
+        &:hover {
+            background-color: #5a6268 !important;
+            border-color: #545b62 !important;
+        }
+    }
+}

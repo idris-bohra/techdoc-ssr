@@ -1,0 +1,35 @@
+@import '../main/variables.scss';
+
+.icon-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+
+    &:hover {
+        background-color: $button-background-hover;
+    }
+}
+
+.icon-button-sm {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0.5px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+
+    &:hover {
+        background-color: $button-background-hover;
+    }
+}

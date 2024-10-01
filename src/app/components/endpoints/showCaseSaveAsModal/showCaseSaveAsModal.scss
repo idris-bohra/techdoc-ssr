@@ -1,0 +1,28 @@
+.showcase_modal_container{
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    border-radius: 4px;
+}
+
+.folder-box {
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(128, 128, 128, 0.076);
+    }
+}
+
+.empty-warning {
+    color: rgba(128, 128, 128, 0.305);
+}
+
+.tab-line {
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.disable-save-btn {
+    pointer-events: none;
+}

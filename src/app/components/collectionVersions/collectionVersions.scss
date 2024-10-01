@@ -1,0 +1,68 @@
+//Note: Unique IDs are used in CTAs for tracking purposes with GTM. Do not use the same IDs elsewhere.
+$alert-color: #CC0000;
+
+#child-accordion > .card {
+  border-radius: 0px;
+  border: none;
+  .collapse {
+    .card-body {
+      padding: 0 0 0 15px !important;
+    }
+  }
+  .card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    height: 40px !important;
+    border-radius: 0px;
+    border: none !important;
+
+    i.fas.fa-folder-open {
+      opacity: 0.4;
+      padding-left: 10px;
+      margin: 5px !important;
+    }
+    h5.mb-0 {
+      float: left;
+      width: 100%;
+    }
+    .btn-group {
+      visibility: hidden;
+      display: flex;
+      margin: 0px;
+      height: 100%;
+      border-radius: 0px;
+      button.btn.btn-secondary {
+        border-radius: 0px;
+        background: rgb(237, 237, 237);
+        border: 0px;
+        border-left: 1px solid rgba(0, 0, 0, 0.125);
+        color: rgba(0, 0, 0, 0.4);
+      }
+      .dropdown-menu {
+        border-radius: 0px;
+        transform: translate3d(-119px, 40px, 0px) !important;
+        margin: 0px;
+      }
+    }
+    .show {
+      visibility: visible;
+    }
+  }
+
+  .card-header:hover {
+    background: rgb(237, 237, 237);
+    .btn-group {
+      visibility: visible;
+    }
+  }
+}
+
+.delete-parent-btn{
+ &:hover {
+  background-color: $alert-color !important;
+  color: white !important;
+ }
+}

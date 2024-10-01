@@ -1,0 +1,141 @@
+.navigation {
+  background: transparent;
+  .nav-menu {
+    gap: 28px;
+    @media only screen and (max-width: 769px) {
+      gap: 8px;
+    }
+  }
+}
+.web {
+  &_text-primary {
+    color: #ec5413;
+  }
+  &_bg-primary {
+    background-color: #ec5413 !important;
+  }
+  &_btn {
+    border-radius: 0px !important;
+    &.web_btn-rg {
+      font-size: 18px;
+      padding: 13px 24px !important;
+    }
+    &.web_btn-lg {
+      font-weight: 600;
+      font-size: 18px;
+      padding: 13px 24px !important;
+    }
+    &.web_btn-login {
+      background-color: #f3f4f6;
+      border: #d5d9dc 1px solid;
+    }
+    &.web_btn-primary {
+      background-color: #d14826;
+      border: #d14826 1px solid;
+      color: #ffffff !important;
+    }
+  }
+  &_body {
+    background-color: #fbf8f3;
+  }
+  &_cont{
+    background: transparent !important;
+  }
+
+  &_logo {
+    width: 100%;
+    max-width: 200px;
+    @media only screen and (max-width: 769px) {
+      max-width: 160px;
+    }
+  }
+  &_tagline {
+    font-size: 22px;
+    @media only screen and (max-width: 769px) {
+      font-size: 16px;
+    }
+  }
+  &_h1 {
+    font-size: 80px;
+    @media only screen and (max-width: 769px) {
+      font-size: 40px;
+    }
+  }
+  &_text-primary {
+    color: #ec5413;
+  }
+  &_hero {
+    background: white;
+
+    gap: 46px;
+    padding: 40px !important;
+    border: #c9c9c9 solid 1px;
+    img {
+      width: 70%;
+      margin: 0 auto;
+      @media only screen and (max-width: 769px) {
+        width: 96%;
+      }
+    }
+  }
+  &_h2 {
+    font-size: 48px;
+  }
+  &_bg-sec {
+    background-color: #fbf8f3;
+    div {
+      background-color: transparent;
+    }
+  }
+
+  &_logogrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+    .grid_col {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      min-height: 200px;
+      justify-content: center;
+      padding: 40px 10px;
+      border: #c9c9c9 solid 1px;
+    }
+    .col_span_2 {
+      grid-column: span 2;
+    }
+    .col_span_1 {
+      grid-column: span 1;
+    }
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+      .col_span_2 {
+        grid-column: span 1;
+      }
+      .col_span_1 {
+        grid-column: span 1;
+      }
+    }
+  }
+  &_benifit_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    gap: 20px;
+    div {
+      h3 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 22px !important;
+      }
+    }
+  }
+  &_list {
+    list-style: none;
+  }
+}

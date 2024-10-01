@@ -1,0 +1,16 @@
+.manage-token-title {
+    color: rgb(209, 54, 49) !important;
+}
+
+.dropdown-menu-token {
+    max-height: 500px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.dropdown-token-item {
+    // width: 120px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}

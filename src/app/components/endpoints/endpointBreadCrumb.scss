@@ -1,0 +1,83 @@
+//Note: Unique IDs are used in CTAs for tracking purposes with GTM. Do not use the same IDs elsewhere.
+@import '../main/variables.scss';
+
+.endpoint-name-edit {
+  font-weight: bold;
+
+  .fa.fa-pencil-square-o {
+    visibility: hidden;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+
+  &:hover {
+    .fa.fa-pencil-square-o {
+      visibility: visible;
+      margin-left: 7px;
+    }
+  }
+}
+
+.bread-crumb-wrapper {
+  span {
+    padding: 2px 3px;
+    margin: 0 2px;
+    &:hover {
+      background-color: $button-background-hover;
+    }
+  }
+
+  .end-point-title {
+    font-weight: 700;
+  }
+  .api-label {
+    background-color: rgba(39, 174, 96, .1) !important;
+    border: none !important;
+  }
+}
+.published-post {
+  .api-label {
+    background-color: rgba(39, 174, 96, .1) !important;
+    border: none !important;
+  }
+}
+
+.endpoint-name-input {
+  height: 2.1rem !important;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.protocol-selected-type {
+  background-color: white !important;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 0px 2px;
+  min-width: 24px;
+  min-height: 20px;
+}
+
+.protocol-type-text {
+  font-size: 12px !important;
+  color: black !important;
+}
+
+.protocol-dropdown {
+  border: 1px solid rgba(128, 128, 128, 0.3) !important;
+}
+
+.endpoint-description {
+  &:focus{
+    outline: none;
+    border: none;
+  }
+  &:active{
+    outline: none;
+    border: none;
+  }
+}
+.breadcrumb-main {
+  max-width: 37vw;
+}

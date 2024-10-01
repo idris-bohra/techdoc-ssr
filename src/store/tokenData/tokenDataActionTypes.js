@@ -1,0 +1,9 @@
+const ADD_TOKEN = 'ADD_TOKEN'
+const DELETE_TOKEN = 'DELETE_TOKEN'
+const UPDATE_TOKEN = 'UPDATE_TOKEN'
+
+export default {
+  ADD_TOKEN,
+  DELETE_TOKEN,
+  UPDATE_TOKEN,
+}

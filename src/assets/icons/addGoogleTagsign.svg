@@ -1,0 +1,46 @@
+<svg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                              <path
+                                d='M1.82189 8.02724L8.10274 1.74639C8.59828 1.25084 9.40172 1.25084 9.89726 1.74639L16.1781 8.02724C16.6737 8.52278 16.6737 9.32622 16.1781 9.82176L9.89726 16.1026C9.40172 16.5982 8.59828 16.5982 8.10274 16.1026L1.82189 9.82176C1.32634 9.32622 1.32634 8.52278 1.82189 8.02724Z'
+                                stroke='#E98A36'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                              />
+                              <line
+                                x1='0.75'
+                                y1='-0.75'
+                                x2='7.32538'
+                                y2='-0.75'
+                                transform='matrix(-0.707107 0.707107 0.707107 0.707107 12.2629 3.70117)'
+                                stroke='#E98A36'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                              />
+                              <line
+                                x1='11.8551'
+                                y1='8.97961'
+                                x2='7.20558'
+                                y2='13.6291'
+                                stroke='#E98A36'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                              />
+                              <line
+                                x1='6.79772'
+                                y1='8.5957'
+                                x2='9.00001'
+                                y2='10.798'
+                                stroke='#E98A36'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                              />
+                              <line
+                                x1='9.24493'
+                                y1='6.14844'
+                                x2='11.8182'
+                                y2='8.7217'
+                                stroke='#E98A36'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                              />
+                            </svg>

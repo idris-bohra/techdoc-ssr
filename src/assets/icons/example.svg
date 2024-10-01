@@ -1,0 +1,7 @@
+<svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background rectangle with a border -->
+  <rect x="0.5" y="0.5" width="16" height="16" rx="2" ry="2" fill="smoke-white" stroke="#212121" stroke-width="1" />
+  
+  <!-- Text "e.g." in the center -->
+  <text x="9" y="11" font-family="Arial, sans-serif" font-size="8" fill="#212121" text-anchor="middle">e.g.</text>
+</svg>
